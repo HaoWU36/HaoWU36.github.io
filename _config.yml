@@ -25,12 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "HAO WU"
   pronouns         : # example: "she/her"  
-  bio              : | 
-                      Research Fellow, 
-                      COM3
-                      School of Computing
-                      National University of Singapore
-                      Email: hao_wu at nus dot edu dot sg
+  bio              : "Research Fellow <br> COM3 <br> School of Computing <br> National University of Singapore <br> Email: hao_wu [at] nus (dot) edu (dot) sg"
+
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
