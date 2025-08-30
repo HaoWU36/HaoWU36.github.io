@@ -25,7 +25,12 @@ author:
   avatar           : "profile.png"
   name             : "HAO WU"
   pronouns         : # example: "she/her"  
-  bio              : "Research Fellow, National University of Singapore"
+  bio              : | 
+                      Research Fellow, 
+                      COM3
+                      School of Computing
+                      National University of Singapore
+                      Email: hao_wu at nus dot edu dot sg
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
@@ -47,13 +52,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : #"academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
