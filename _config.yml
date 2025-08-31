@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "HAO WU"
+# title                    : "HAO WU"
 title_separator          : "-"
 name                     : &name "HAO WU"
 description              : &description "personal description"
@@ -22,15 +22,15 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo.jpg"
   name             : "HAO WU"
   pronouns         : # example: "she/her"  
   bio              : "Research Fellow <br> COM3 <br> School of Computing <br> National University of Singapore <br> Email: hao_wu [at] nus (dot) edu (dot) sg"
 
-  location         : "Singapore"
-  employer         : "National University of Singapore"
+  location         : #"Singapore"
+  employer         : #"National University of Singapore"
   uri              : # URL
-  email            : "hao_wu@nus.edu.sg" 
+  email            : #"hao_wu@nus.edu.sg" 
 
   # Academic websites
   academia         : # URL
@@ -217,13 +217,13 @@ kramdown:
 
 
 # These settings control the types of collections used by the template
-collections:
+# collections:
   # teaching:
   #   output: true
   #   permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /:collection/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
