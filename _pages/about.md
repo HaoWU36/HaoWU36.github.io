@@ -21,7 +21,7 @@ I have many cherished memories from my time in the [Department of Electronic Eng
 
 | | |
 |---|---|
-| <img src="/images/SaTE.png" style="width:240px !important; width:auto;"> | **SaTE: Low-Latency Traffic Engineering for Satellite Networks** <br> *Hao Wu*, Yizhan Han, Mohit Rajpal, Qizhen Zhang, Jingxian Wang. <br> SIGCOMM 2025 <br> |
+| <img src="/images/SaTE.png" style="width:240px !important; width:auto;"> | **SaTE: Low-Latency Traffic Engineering for Satellite Networks** <br> *Hao Wu*, Yizhan Han, Mohit Rajpal, Qizhen Zhang, Jingxian Wang. <br> SIGCOMM 2025 <br> <a href="https://github.com/hyizhak/satellite-te" class="btn btn-sm btn-outline-primary" target="_blank">GitHub</a>|
 | <img src="/images/Ay_TE.png" style="width:240px !important; width:auto;"> | **Asynchronous Multi-Class Traffic Management in Wide Area Networks** <br> *Hao Wu*, Jian Yan, Linling Kuang. <br> IEEE Transactions on Network and Service Management 2024 <br> |
 | <img src="/images/DecTE.png" style="width:240px !important; width:auto;"> | **DecTE: Achieving Optimal Network Group Efficiency in Selfish Multidomain Networks** <br> *Hao Wu*, Jian Yan, Linling Kuang. <br> IEEE Transactions on Network Science and Engineering 2023 <br> |
 | <img src="/images/QoSSystem.png" style="width:240px !important; width:auto;"> | **QoS provisioning in space information networks: Applications, challenges, architectures, and solutions** <br> *Hao Wu*, Jian Yan. <br> IEEE Network 2021 <br> |
