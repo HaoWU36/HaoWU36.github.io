@@ -11,3 +11,11 @@
 # docker-compose.yaml): jekyll serve overwrites site.url with its own bind
 # address whenever the environment is development. See serve.rb:90.
 url: ""
+
+# _includes/scripts.html injects the analytics snippet with no environment
+# guard, and this container runs with JEKYLL_ENV=production (see above), so
+# every local page view would otherwise be recorded as real traffic. Jekyll
+# deep-merges config files, so this replaces only `provider` and leaves
+# analytics.google.tracking_id in _config.yml untouched.
+analytics:
+  provider: false
