@@ -1,0 +1,14 @@
+# The image only needs Gemfile/Gemfile.lock at build time; the repo itself is
+# bind-mounted at runtime. Keeping the build context small avoids shipping
+# ~130MB of gems, build output and history to the daemon on every build.
+.bundle/
+vendor/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+node_modules/
+.git/
+.github/
+.devcontainer/
+*.vsdx

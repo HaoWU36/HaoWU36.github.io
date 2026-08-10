@@ -43,3 +43,11 @@
 ;
 
 .author__avatar img { border-radius: 0 !important; }
+
+/* Notices are styled as small asides ($type-size-6, set with !important in the
+   notice mixin), but we use them to draw attention, so keep them at body size.
+   The extra .page__content and the !important are both needed to outrank it. */
+.page__content .notice,
+.page__content [class^="notice--"] {
+  font-size: 1em !important;
+}

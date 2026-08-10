@@ -1,0 +1,13 @@
+# Local-development overlay, layered on top of _config.yml by the Dockerfile's
+# CMD. GitHub Pages only ever reads _config.yml, so production is unaffected.
+#
+# _includes/base_path builds every asset link as site.url + site.baseurl. In
+# production that must stay https://haowu36.github.io, but locally that would
+# make the preview load images from the deployed site instead of the working
+# copy. Blanking it yields root-relative links, which resolve against whatever
+# host and port the container is served on.
+#
+# Note this only takes effect with JEKYLL_ENV=production (set in
+# docker-compose.yaml): jekyll serve overwrites site.url with its own bind
+# address whenever the environment is development. See serve.rb:90.
+url: ""

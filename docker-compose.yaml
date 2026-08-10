@@ -3,6 +3,12 @@ services:
     image: jekyll-site
     build: .
     volumes: [ .:/usr/src/app ]
-    ports: [ 4000:4000 ]
+    # 4000 serves the site; 35729 is the LiveReload channel the injected script talks to.
+    ports: [ 4000:4000, 35729:35729 ]
     user: 1000:1000
-    command: jekyll serve -H 0.0.0.0 -w
+    # Not a claim that this is a production build: it stops `jekyll serve` from
+    # overwriting site.url with its own bind address, which is what lets
+    # _config.dev.yml's url override survive. Analytics and comments are both
+    # disabled in _config.yml, so nothing else changes.
+    environment: [ JEKYLL_ENV=production ]
+    # The serve command lives in the Dockerfile's CMD so there is a single source of truth.
